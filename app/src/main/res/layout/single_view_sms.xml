@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tvHisText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/frist_user_text_box"
+        android:maxWidth="250dp"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:singleLine="false"
+        android:text="his is text"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toEndOf="@+id/firstUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/firstUserProfileImage"
+        app:layout_constraintVertical_bias="0.00999999" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btViewIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        android:backgroundTint="@color/colorPurpleApp"
+        android:text="@string/Clickorder"
+        android:textSize="15sp"
+        app:icon="@drawable/ic_basket_white"
+        app:layout_constraintStart_toStartOf="@+id/tvHisText"
+        app:layout_constraintTop_toBottomOf="@+id/tvHisText" />
+
+    <TextView
+        android:id="@+id/tvMeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/second_user_text_box"
+        android:maxWidth="250dp"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:text="Me is text"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:singleLine="false"
+        app:layout_constraintBottom_toBottomOf="@+id/secondsUserProfileImage"
+        app:layout_constraintEnd_toStartOf="@+id/secondsUserProfileImage"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toEndOf="@+id/firstUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/secondsUserProfileImage"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/firstImageSend"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="TODO"
+        android:padding="10dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/firstUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/firstUserProfileImage"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+    <ImageView
+        android:id="@+id/secondImageSend"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="TODO"
+        android:padding="10dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/secondsUserProfileImage"
+        app:layout_constraintStart_toEndOf="@+id/firstUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/secondsUserProfileImage"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+    <VideoView
+        android:id="@+id/firstVideoViewChat"
+        android:layout_width="263dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="8dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/firstUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/firstUserProfileImage" />
+
+
+    <VideoView
+        android:id="@+id/secondVideoViewChat"
+        android:layout_width="263dp"
+        android:layout_height="146dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="gone"
+        android:padding="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/secondsUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/secondsUserProfileImage" />
+
+    <View
+        android:id="@+id/vSecondMp3View"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_button_del_download2"
+        app:layout_constraintBottom_toBottomOf="@+id/ivSecondMp3"
+        app:layout_constraintEnd_toEndOf="@+id/ivSecondMp3"
+        app:layout_constraintStart_toStartOf="@+id/ivSecondMp3"
+        app:layout_constraintTop_toTopOf="@+id/ivSecondMp3" />
+
+    <View
+        android:id="@+id/vFirstMp3View"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_button_del_download"
+        app:layout_constraintBottom_toBottomOf="@+id/ivFirstMp3"
+        app:layout_constraintEnd_toEndOf="@+id/ivFirstMp3"
+        app:layout_constraintStart_toStartOf="@+id/ivFirstMp3"
+        app:layout_constraintTop_toTopOf="@+id/ivFirstMp3" />
+
+    <ImageView
+        android:id="@+id/ivFirstMp3"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@+id/firstUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/firstUserProfileImage"
+        app:srcCompat="@drawable/mp3" />
+
+    <ImageView
+        android:id="@+id/ivSecondMp3"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/secondsUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/secondsUserProfileImage"
+        app:srcCompat="@drawable/mp3" />
+
+    <View
+        android:id="@+id/vFirstPdfView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_button_del_download"
+        app:layout_constraintBottom_toBottomOf="@+id/ivFirstPdf"
+        app:layout_constraintEnd_toEndOf="@+id/ivFirstPdf"
+        app:layout_constraintStart_toStartOf="@+id/ivFirstPdf"
+        app:layout_constraintTop_toTopOf="@+id/ivFirstPdf" />
+
+    <View
+        android:id="@+id/vSecondPdfView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_button_del_download2"
+        app:layout_constraintBottom_toBottomOf="@+id/ivSecondPdf"
+        app:layout_constraintEnd_toEndOf="@+id/ivSecondPdf"
+        app:layout_constraintStart_toStartOf="@+id/ivSecondPdf"
+        app:layout_constraintTop_toTopOf="@+id/ivSecondPdf" />
+
+
+
+    <ImageView
+        android:id="@+id/ivFirstPdf"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/firstUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/firstUserProfileImage"
+        app:srcCompat="@drawable/pdf" />
+
+    <ImageView
+        android:id="@+id/ivSecondPdf"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/secondsUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/secondsUserProfileImage"
+        app:srcCompat="@drawable/pdf" />
+
+    <ImageView
+        android:id="@+id/firstSticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/firstUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/firstUserProfileImage"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/secondSticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/secondsUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/secondsUserProfileImage"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutFirstButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_popyp_chat"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/firstUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/firstUserProfileImage">
+
+
+        <ImageView
+            android:id="@+id/ivFirstSave"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_save" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutSecondButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/bg_popyp_chat"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/secondsUserProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/secondsUserProfileImage">
+
+
+        <ImageView
+            android:id="@+id/ivSecondtSave"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_marginStart="8dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_save" />
+
+        <ImageView
+            android:id="@+id/ivSecondtDel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_marginStart="16dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivSecondtSave"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_delete" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/firstUserProfileImage"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/secondsUserProfileImage"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

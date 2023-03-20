@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/All_Activities"
+        android:id="@+id/AllActivity"
+        android:icon="@drawable/ic_activity"/>
+
+    <item android:title="@string/Joined_Activities"
+        android:id="@+id/JoinActivity"
+        android:icon="@drawable/ic_add_people"/>
+
+</menu>

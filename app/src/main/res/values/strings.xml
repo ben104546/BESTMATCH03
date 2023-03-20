@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Best Match</string>
+    <string name="member_right">Member Right</string>
+    <string name="vision_group">Vision Group</string>
+    <string name="change_language">Change Language</string>
+    <string name="thai_language">Thai</string>
+    <string name="english_language">English</string>
+    <string name="update">Update</string>
+    <string name="description">Description</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="username">Username</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="friends">Friends</string>
+    <string name="find_friends">Find Friends</string>
+    <string name="chat">Chat</string>
+    <string name="logout">Logout</string>
+    <string name="groups">Groups</string>
+    <string name="find_groups">Find Groups</string>
+    <string name="invited_group">Invited Group</string>
+    <string name="send_request">SEND REQUEST</string>
+    <string name="decline_request">DECLINE REQUEST</string>
+    <string name="group_name">Group Name</string>
+    <string name="public_group">Public Group</string>
+    <string name="privategroup">PrivateGroup</string>
+    <string name="create_group">Create Group</string>
+    <string name="join_group">Join Group</string>
+    <string name="not_join_group">not join group</string>
+    <string name="enter_text">Enter Text....</string>
+    <string name="invite_member">invite member</string>
+    <string name="member">member</string>
+    <string name="activity">Activity</string>
+    <string name="setting_group">Setting Group</string>
+    <string name="remove_group">REMOVE GROUP</string>
+    <string name="leave_the_group">leave the group</string>
+    <string name="kickmember">fired from group</string>
+    <string name="admin_group">Admin Group</string>
+    <string name="membergroup">MemberGroup</string>
+    <string name="back">Back</string>
+    <string name="next">NEXT</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thur">THUR</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="select_date">Select Date:</string>
+    <string name="select_time">Select Time</string>
+    <string name="add_picture">ADD PICTURE</string>
+    <string name="create_activity">Create Activity</string>
+    <string name="name_doings">NAME DOINGS</string>
+    <string name="forgotpassword">ForgotPassword</string>
+    <string name="login">LOGIN</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">ConFirm Password</string>
+    <string name="already_i_have_account">Already I have Account</string>
+    <string name="save">SAVE</string>
+    <string name="post_something_here">Post Something Here!!!</string>
+    <string name="Will_delete_the_group">Will delete the group?</string>
+    <string name="Leave_the_group">Leave the group?</string>
+    <string name="Choose_Color">Choose Color</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Choose_Picture">Choose Picture</string>
+
+    <string name="facebook_app_id">792228998873407</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">97b2b6214d4cd88da4dba221660c4338</string>
+    <string name="put_your_phone">Put Your Phone</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="otp">OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+
+    <string-array name="spRightMember">
+        <item>Admin Group</item>
+        <item>Member Group</item>
+
+    </string-array>
+
+    <string-array name="spVisionGroup">
+        <item>Public</item>
+        <item>Private</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sticker_store">Sticker Store</string>
+
+
+    //แปลเนื้อหาใหม่
+    <string name="Activity">Activity</string>
+    <string name="SignIn">Sign In</string>
+    <string name="OrSignInwith">Or Sign In with</string>
+    <string name="LoginwithGoogle">Log in with Google</string>
+    <string name="LoginwithPhone">Log in with Phone</string>
+    <string name="Profile">Profile</string>
+    <string name="WarnTitleFile">Your file size is more than 10 mb.</string>
+
+    <string name="Clickorder">Click to view orders</string>
+    <string name="Youcannotfun">You cannot use this function.</string>
+    <string name="DateBefore">Please select a future date. </string>
+    <string name="Select_a_date">Select a date </string>
+    <string name="Create_new_Group">Create new Group </string>
+
+    <string name="Please_enter_Name">Please enter Name </string>
+    <string name="Please_enter_Description">Please enter Description </string>
+    <string name="Please_enter_Date">Please enter Date </string>
+    <string name="Please_enter_Time">Please enter Time  </string>
+    <string name="Please_enter_Icon">Please enter Icon </string>
+
+
+    <string name="Enter_The_Phone_Number">Enter The Phone Number </string>
+    <string name="Phone_Number">Phone Number </string>
+    <string name="NEXT">NEXT </string>
+
+    <string name="Send_Otp">Send Otp </string>
+
+    <string name="Enter_Comments">Enter Comments </string>
+
+    <string name="Edit_Profile">Edit Profile </string>
+
+    <string name="Choose_Profile_Image">Choose Profile Image </string>
+    <string name="Choose_Your_Language">Choose Your Language </string>
+
+    <string name="Send_Friend_Request">Send Friend Request</string>
+    <string name="Send_SMS">Send SMS</string>
+    <string name="Unfriend">Unfriend</string>
+    <string name="Cancel_Friend_Request">Cancel Friend Request</string>
+    <string name="Accept_Friend_Request">Accept Friend Request</string>
+    <string name="Decline_Friend">Decline Friend</string>
+
+
+
+    <string name="invited_members">invited members</string>
+    <string name="Members">Members</string>
+    <string name="Activities">Activities</string>
+    <string name="Settings_Group">Settings Group</string>
+    <string name="Remove_Group">Remove Group</string>
+    <string name="Leave_Group">Leave Group</string>
+
+
+    <string name="Setting">Setting</string>
+
+
+    <string name="Stickers_Store">Stickers Store</string>
+    <string name="Shop_Basket">Shop Basket</string>
+    <string name="Order">Order</string>
+
+    <string name="Upcoming_Activity">Upcoming Activity</string>
+    <string name="Completed_Activity">Completed Activity</string>
+
+    <string name="Activity_Detail">Activity Detail</string>
+    <string name="Activity_Member">Activity Member</string>
+    <string name="Activity_Plan">Activity Plan</string>
+
+
+    <string name="All_Activities">All Activities</string>
+    <string name="Joined_Activities">Joined Activities</string>
+
+    <string name="PICTURE">PICTURE</string>
+    <string name="COLOR">COLOR</string>
+
+    <string name="Buy_Sticker">Buy Sticker</string>
+    <string name="Add_In_basket">Add In basket</string>
+    <string name="close">Close</string>
+    <string name="please_enter_group_name">Please Enter Group Name</string>
+    <string name="Please_complete_the_information">Please complete the information.</string>
+    <string name="Please_Choose_Sticker" >Please Choose Sticker</string>
+    <string name="Please_enter_plan_name" >Please Enter Plan Name</string>
+    <string name="Please_enter_plan_des" >Please Enter Plan Description</string>
+    <string name="Please_enter_plan_date" >Please Enter Plan Date</string>
+    <string name="Please_enter_plan_time" >Please Enter Plan Time</string>
+    <string name="plan_name">Plan Name</string>
+    <string name="plan_description">Plan Description</string>
+    <string name="add_date">Add Date</string>
+    <string name="add_time">Add Time</string>
+    <string name="add_plan">Add plan</string>
+    <string name="cancel">Cancel</string>
+    <string name="will_you_delete_this_plan">Will you delete this plan?</string>
+    <string name="You_cannot_leave_the_group">You cannot leave the group</string>
+
+
+
+
+
+
+</resources>

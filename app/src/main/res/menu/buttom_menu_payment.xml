@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ChosePatflom"
+        android:title="Choose platform for payment"
+        android:icon="@drawable/ic_money_white" />
+
+    <item
+        android:id="@+id/Summarize"
+        android:title="Summarize"
+        android:icon="@drawable/ic_summarize" />
+
+
+    <item
+        android:id="@+id/Pay"
+        android:title="Pay"
+        android:icon="@drawable/ic_pay" />
+
+    <item
+        android:id="@+id/Ordernotification"
+        android:title="Order notification"
+        android:icon="@drawable/ic_basket_white" />
+
+    <item
+        android:id="@+id/waitingforpaymentresult"
+        android:title="Waiting for payment result"
+        android:icon="@drawable/ic_check_white" />
+
+
+
+</menu>

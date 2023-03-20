@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/Activity_Detail"
+        android:id="@+id/DeActivity"
+        android:icon="@drawable/ic_activity"/>
+
+    <item android:title="@string/Activity_Member"
+        android:id="@+id/MeActivity"
+        android:icon="@drawable/ic_add_people"/>
+
+    <item android:title="@string/Activity_Plan"
+        android:id="@+id/PlActivity"
+        android:icon="@drawable/ic_plan"/>
+
+</menu>

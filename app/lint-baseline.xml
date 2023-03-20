@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.1" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.1)" variant="fatal" version="7.2.1">
+
+    <issue
+        id="ManifestResource"
+        message="Resources referenced from the manifest cannot vary by configuration (except for version qualifiers, e.g. `-v21`). Found variation in th-rTH"
+        errorLine1="                &lt;data android:scheme=&quot;@string/fb_login_protocol_scheme&quot; />"
+        errorLine2="                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="147"
+            column="39"/>
+        <location
+            file="src/main/res/values-th-rTH/strings.xml"
+            line="67"
+            column="45"
+            message="This value will not be used"/>
+    </issue>
+
+</issues>

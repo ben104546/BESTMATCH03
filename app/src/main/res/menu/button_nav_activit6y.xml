@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/Upcoming_Activity"
+        android:id="@+id/UCActivity"
+        android:icon="@drawable/ic_activity"/>
+
+    <item android:title="@string/Completed_Activity"
+        android:id="@+id/FNActivity"
+        android:icon="@drawable/ic_activitycm"/>
+</menu>

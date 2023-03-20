@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/first">
+
+
+        <item
+            android:id="@+id/profile"
+            android:title="@string/profile"
+            android:icon="@drawable/ic_round_person"/>
+
+        <item
+            android:id="@+id/friends"
+            android:title="@string/friends"
+            android:icon="@drawable/ic_round_fiends"/>
+
+        <item
+            android:id="@+id/findFriends"
+            android:title="@string/find_friends"
+            android:icon="@drawable/ic_round_add_firends"/>
+
+        <item
+            android:id="@+id/chat"
+            android:title="@string/chat"
+            android:icon="@drawable/ic_round_chat"/>
+
+
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/Third">
+        <item
+            android:id="@+id/group"
+            android:title="@string/groups"
+            android:icon="@drawable/ic_group"/>
+
+        <item
+            android:id="@+id/find_group"
+            android:title="@string/find_groups"
+            android:icon="@drawable/ic_find_group"/>
+
+        <item
+            android:id="@+id/invited_group"
+            android:title="@string/invited_group"
+            android:icon="@drawable/ic_invited_group"/>
+
+    </group>
+
+
+
+    <group
+    android:id="@+id/third">
+
+    <item
+        android:id="@+id/activity"
+        android:title="@string/Activity"
+        android:icon="@drawable/ic_activity"/>
+
+    </group>
+
+    <group android:id="@+id/Four">
+        <item
+            android:id="@+id/store"
+            android:title="@string/sticker_store"
+            android:icon="@drawable/ic_sticker_store"/>
+
+    </group>
+
+    <group android:id="@+id/Second">
+        <item
+    android:id="@+id/logout"
+    android:title="@string/logout"
+    android:icon="@drawable/ic_round_logout"/>
+
+    </group>
+
+
+</menu>

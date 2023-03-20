@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">เบสต์แมตช์</string>
+    <string name="member_right">สิทธิ์ของผู้ใช้</string>
+    <string name="vision_group">การมองเห็นของกลุ่ม</string>
+    <string name="change_language">เปลี่ยนภาษา</string>
+    <string name="thai_language">ภาษาไทย</string>
+    <string name="english_language">ภาษาอังกฤษ</string>
+    <string name="update">อัพเดท</string>
+    <string name="description">คำอธิบาย</string>
+    <string name="country">ประเทศ</string>
+    <string name="city">เมือง</string>
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="home">หน้าหลัก</string>
+    <string name="profile">โปรไฟล์</string>
+    <string name="friends">เพื่อน</string>
+    <string name="find_friends">ค้นหาเพื่อน</string>
+    <string name="chat">แชท</string>
+    <string name="logout">ออกจากระบบ</string>
+    <string name="groups">กลุ่ม</string>
+    <string name="find_groups">ค้นหากลุ่ม</string>
+    <string name="invited_group">คำชวนเข้าร่วมกลุ่ม</string>
+    <string name="send_request">ส่งคําขอเป็นเพื่อน</string>
+    <string name="decline_request">ปฏิเสธคำขอเป็นเพื่อน</string>
+    <string name="group_name">ชื่อกลุ่ม</string>
+    <string name="public_group">กลุ่มสาธารณะ</string>
+    <string name="privategroup">กลุ่มส่วนตัว</string>
+    <string name="create_group">สร้างกลุ่ม</string>
+    <string name="join_group">เข้าร่วมกลุ่ม</string>
+    <string name="not_join_group">ไม่เข้าร่วมกลุ่ม</string>
+    <string name="enter_text">พิมพ์ข้อความ</string>
+    <string name="invite_member">ชวนสมาชิก</string>
+    <string name="member">สมาชิก</string>
+    <string name="activity">กิจกรรม</string>
+    <string name="setting_group">ตั้งค่ากลุ่ม</string>
+    <string name="remove_group">ลบกลุ่ม</string>
+    <string name="leave_the_group">ออกจากกลุ่ม</string>
+    <string name="kickmember">ไล่สมาชิกนี้ออกจากกลุ่ม</string>
+    <string name="admin_group">ผู้ดูแลกลุ่ม</string>
+    <string name="membergroup">สมาชิกกลุ่ม</string>
+    <string name="back">ก่อนหน้า</string>
+    <string name="next">ถัดไป</string>
+    <string name="sun">อา.</string>
+    <string name="mon">จ.</string>
+    <string name="tue">อ.</string>
+    <string name="wed">พ.</string>
+    <string name="thur">พฤ</string>
+    <string name="fri">ศ.</string>
+    <string name="sat">ส.</string>
+    <string name="select_date">เลือกวัน:</string>
+    <string name="select_time">เลือกเวลา</string>
+    <string name="add_picture">เพิ่มรูปภาพ</string>
+    <string name="create_activity">สร้างกิจกรรม</string>
+    <string name="name_doings">ชื่อกิจกรรม</string>
+    <string name="forgotpassword">ลืมรหัสผ่าน</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="create_new_account">สมัครสมาชิกใหม่</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="e_mail">อีเมล</string>
+    <string name="register">สมัครสมาชิก</string>
+    <string name="confirm_password">ป้อนรหัสผ่านอีกครั้ง</string>
+    <string name="already_i_have_account">ฉันมีบัญชีผู้ใช้อยู่แล้ว</string>
+    <string name="save">บันทึก</string>
+    <string name="post_something_here">ลองโพสต์อะไรสักอย่างสิ!!!</string>
+    <string name="Will_delete_the_group">ลบกลุ่มหรือไม่?</string>
+    <string name="Leave_the_group">ออกจากกลุ่มหรือไม่?</string>
+    <string name="Choose_Color">เลือกสีนี้</string>
+    <string name="Cancel">ยกเลิก</string>
+    <string name="Choose_Picture">เลือกรูป</string>
+
+    <string name="facebook_app_id">792228998873407</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">97b2b6214d4cd88da4dba221660c4338</string>
+
+    <string name="put_your_phone">ใส่หมายเลขโทรศัพท์ของคุณ</string>
+    <string name="phone_number">หมายเลขโทรศัพท์</string>
+    <string name="otp">OTP</string>
+    <string name="verify_otp">ยืนยัน OTP</string>
+    <string name="sticker_store">ร้านค้า สติ๊กเกอร์</string>
+
+
+    <string name="Activity">กิจกรรม</string>
+    <string name="SignIn">เข้าสู่ระบบ</string>
+    <string name="OrSignInwith">หรือเข้าสู่ระบบผ่านทาง</string>
+    <string name="LoginwithGoogle">เข้าสู่ระบบผ่านGoogle</string>
+    <string name="LoginwithPhone">เข้าสู่ระบบผ่านบอร์โทร</string>
+    <string name="Profile">ข้อมูลผู้ใช้</string>
+    <string name="WarnTitleFile">ไฟล์ของคุณมีขนาดมากกว่า 10 mb</string>
+
+//
+
+
+    <string name="Clickorder">คลิ๊กเพื่อดูคำสั่งซื้อ</string>
+
+
+    <string name="Youcannotfun">คุณไม่สามารถใช้ฟังก์ชันนี้ได้</string>
+
+
+    <string name="DateBefore">กรุณาเลือกวันที่ล่วงหน้า </string>
+
+
+    <string name="Select_a_date">กรุณาเลือกวันที่ </string>
+
+
+    <string name="Create_new_Group">สร้างกลุ่มใหม่ </string>
+
+
+    <string name="Please_enter_Name">กรุณากรอกชื่อ </string>
+
+
+    <string name="Please_enter_Description">กรุณากรอกคำอธิบาย </string>
+
+
+    <string name="Please_enter_Date">กรุณากรอกวันที่ </string>
+
+
+    <string name="Please_enter_Time">กรุณาใส่เวลา  </string>
+
+    <string name="Please_enter_Icon">กรุณาใส่ไอคอน </string>
+
+
+    <string name="Enter_The_Phone_Number">กรอกเบอร์โทรศัพท์ </string>
+
+
+    <string name="Phone_Number">เบอร์โทรศัพท์ </string>
+
+
+    <string name="NEXT">ถัดไป </string>
+
+
+    <string name="Send_Otp">ส่ง Otp </string>
+
+
+    <string name="Enter_Comments">เขียนความคิดเห็น </string>
+
+
+    <string name="Edit_Profile">แก้ไขโปรไฟล์ </string>
+
+
+    <string name="Choose_Profile_Image">เลือกรูปโปรไฟล์ </string>
+
+
+    <string name="Choose_Your_Language">เลือกภาษาของคุณ </string>
+
+
+    <string name="Send_Friend_Request">ส่งคำขอเป็นเพื่อน </string>
+
+
+    <string name="Send_SMS">ส่ง SMS</string>
+
+
+    <string name="Unfriend">เลิกเป็นเพื่อน</string>
+
+
+    <string name="Cancel_Friend_Request">ยกเลิกคำขอเป็นเพื่อน </string>
+
+
+    <string name="Accept_Friend_Request">ตอบรับคำขอเป็นเพื่อน </string>
+
+
+    <string name="Decline_Friend">ปฏิเสธเพื่อน </string>
+
+
+    <string name="invited_members">เชิญชวนสมาชิก</string>
+
+
+    <string name="Members">สมาชิก</string>
+
+
+
+    <string name="Activities">กิจกรรม</string>
+
+
+    <string name="Settings_Group">ตั้งค่ากลุ่ม</string>
+
+
+    <string name="Remove_Group">ลบกลุ่ม </string>
+
+
+    <string name="Leave_Group">ออกจากกลุ่ม</string>
+
+
+    <string name="Setting">ตั้งค่า</string>
+
+
+    <string name="Stickers_Store">ร้านค้าสติ๊กเกอร์</string>
+
+
+    <string name="Shop_Basket">ตะกร้าสินค้า</string>
+
+
+    <string name="Order">คำสั่งซื้อ</string>
+
+    <string name="Upcoming_Activity">กิจกรรมที่จะเกิดขึ้น</string>
+
+    <string name="Completed_Activity">เสร็จสิ้นกิจกรรม</string>
+    <string name="Activity_Detail">รายละเอียดกิจกรรม</string>
+    <string name="Activity_Member">กิจกรรมสมาชิก</string>
+    <string name="Activity_Plan">แผนกิจกรรม</string>
+    <string name="All_Activities">กิจกรรมทั้งหมด</string>
+    <string name="Joined_Activities">เข้าร่วมกิจกรรม</string>
+
+    <string name="PICTURE">รูปภาพ</string>
+
+
+    <string name="COLOR">สี</string>
+
+    <string name="Buy_Sticker">ซื้อสติ๊กเกอร์</string>
+    <string name="Add_In_basket">เพิ่มสติ๊กเกอร์ลงในตะกร้า</string>
+    <string name="close">ปิด</string>
+    <string name="please_enter_group_name" >โปรดกรอกชื่อของกลุ่ม</string>
+    <string name="Please_complete_the_information" >โปรดกรอกข้อมูลให้ครบถ้วน</string>
+    <string name="Please_Choose_Sticker" >กรุณาเลือกสติกเกอร์</string>
+    <string name="Please_enter_plan_name" >กรุณาใส่ชื่อแผน</string>
+    <string name="Please_enter_plan_des" >กรุณาป้อนคำอธิบายของแผน</string>
+    <string name="Please_enter_plan_date" >กรุณาป้อนวันที่</string>
+    <string name="Please_enter_plan_time" >กรุณาป้อนเวลา</string>
+    <string name="plan_name">ชื่อแผน</string>
+    <string name="plan_description">คำอธิบายแผน</string>
+    <string name="add_date">เพิ่มวันที่</string>
+    <string name="add_time">เพิ่มเวลา</string>
+    <string name="add_plan">เพิ่มแผน</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="will_you_delete_this_plan">คุณจะลบแผนนี้ไหม</string>
+    <string name="You_cannot_leave_the_group">คุณไม่สามารถออกจากลุ่มได้</string>
+
+</resources>

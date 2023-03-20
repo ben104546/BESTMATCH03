@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#6200EE</color>
+    <color name="colorGray">#CDCDCD</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#D63D3D</color>
+    <color name="colorGreen">#6BD63D</color>
+
+    <color name="colorBlueApp">#16213E</color>
+    <color name="colorBlue2App">#0F3460</color>
+    <color name="colorPurpleApp">#533483</color>
+    <color name="colorRedApp">#E94560</color>
+    <color name="colorGrayApp01">#f9f9f9</color>
+
+
+
+
+    // 7 Day
+    <color name="SUN">#fd7f6f</color>
+    <color name="FIR">#7eb0d5</color>
+    <color name="WE">#b2e061</color>
+    <color name="SA">#bd7ebe</color>s
+    <color name="TH">#ffb55a</color>
+    <color name="MON">#ffee65</color>
+    <color name="SA2">#beb9db</color>
+    <color name="TU">#fdcce5</color>
+    <color name="FIR2">#8bd3c7</color>
+
+
+    <color name="BGBUTTOn">#ff9e14  </color>
+
+</resources>
